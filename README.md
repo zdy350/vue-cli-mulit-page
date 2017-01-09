@@ -1,6 +1,6 @@
 # vue-mulit
 
-> A Vue.js project
+> A Vue.js project for mulit pages
 
 ## Build Setup
 
