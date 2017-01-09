@@ -1,6 +1,7 @@
 # vue-mulit
 
 > A Vue.js project for mulit pages
+> the third page is the Cascader components!
 
 ## Build Setup
 

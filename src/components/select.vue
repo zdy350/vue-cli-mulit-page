@@ -1,19 +1,17 @@
 <template>
   <div>
-    <h1>the parent11</h1>
+    <h1>This is the cascader component!</h1>
     <select name="province" v-model="select">
       <!-- :value这个取值很重要，不能省略 -->
       <option v-for="item in items" :value="item.child">{{item.name}}</option>
     </select>
-    <p>select: {{ select }}</p>
-    <h2>the sub</h2>
+    <!-- <p>select: {{ select }}</p> -->
     <select name="cities" v-model="childselect">
       <option v-for="list in select" :value="list.child" select="">
         {{list.name}}
       </option>
     </select>
-    <h3>the second sub</h3>
-    <p>select: {{ childselect }}</p>
+    <!-- <p>select: {{ childselect }}</p> -->
     <select name="areas">
       <option v-for="area in childselect">
         {{area.name}}
