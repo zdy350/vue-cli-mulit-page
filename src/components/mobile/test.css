@@ -1,0 +1,18 @@
+.map {
+	height: 30rem;
+	color: #fff;
+	background-color: #f60;
+}
+.infor {
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+.sure-btn {
+	margin-top: 2rem;
+	display: block;
+}
+.sign-text {
+	position: fixed;
+	bottom: 2rem;
+	/*left: 1rem;*/
+}

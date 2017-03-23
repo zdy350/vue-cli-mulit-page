@@ -1,0 +1,64 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,input,textarea,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video,hr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	font-style: normal;
+	-webkit-appearance: none; 
+}
+
+html {
+	font-size: 12px;
+}
+
+body {
+	font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;
+	color: #888;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+	-webkit-overflow-scrolling: none;
+}
+
+img {
+	border: 0 none;
+	display: block;
+	width: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: #888888;
+}
+
+ul li {
+	list-style: none;
+}
+
+input,textarea {
+	outline: none;
+}
+.wrap {
+	width: 100%;
+}
+
+@media screen and (min-width: 351px) and (max-width: 373px){
+	body,html{font-size: 13px;}
+}
+@media screen and (min-width: 374px) and (max-width: 400px){
+	body,html{font-size: 14px;}
+}
+@media screen and (min-width: 401px) and (max-width: 413px){
+	body,html{font-size: 15px;}
+}
+@media screen and (min-width: 413px) and (max-width: 460px){
+	body,html{font-size: 16px;}
+}
+@media screen and (min-width: 461px){
+	body,html{font-size: 17px;}
+}

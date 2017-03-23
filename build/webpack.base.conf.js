@@ -3,7 +3,7 @@ var config = require('../config');
 var utils = require('./utils');
 // 这里的glob是nodejs的glob模块，用来读取webpack入口目录文件
 var glob = require('glob');
-console.log('glob: ' + glob);
+// console.log('glob: ' + glob);
 // 获得入口js文件
 var entries = getEntry('./src/pages/**/*.js');
 function getEntry (globPath) {
