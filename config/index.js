@@ -7,7 +7,7 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    // 如果传到服务环境，绝对路径
+    // 绝对路径
     assetsPublicPath: '/',
     // 静态，相对路径
     // assetsPublicPath: '../',
